@@ -20,4 +20,7 @@ const TopicCards = React.forwardRef(({ topic,sheetName }, ref) => {
   )
 });
 
+
+TopicCards.displayName = 'TopicCards';
+
 export default TopicCards
