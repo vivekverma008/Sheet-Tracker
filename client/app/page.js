@@ -5,14 +5,8 @@ import Animated from '@/components/Animated'
 
 
 
+export default async  function Home() {
 
-
-
-
-export default  function Home() {
-
-
-  
 
   return (
     <main className='min-h-screen bg-purple-100 flex flex-col items-center'>

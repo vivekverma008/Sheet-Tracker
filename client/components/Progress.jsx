@@ -39,4 +39,5 @@ const Progress = ({ total, done, className = '' }) => {
     )
 }
 
+
 export default Progress
