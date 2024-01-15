@@ -8,8 +8,11 @@ db.on('connected',()=>{
 })
 
 
-db.on('error',()=>{
-    console.log('error')
+db.on('error',(error)=>{
+
+    console.log(process.env.DB_URI);
+
+    console.log('error');
 })
 
 
